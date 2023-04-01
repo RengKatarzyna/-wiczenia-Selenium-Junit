@@ -11,4 +11,7 @@ public class HelloJUnit {
     public void goodbye() {
         System.out.println("goodbye");
     }
+    @Test
+    public void goodbye2() {
+        System.out.println("goodbye");
 }
