@@ -1,2 +1,11 @@
-package PACKAGE_NAME;class HelloJUnit {
+import org.junit.Test;
+
+class HelloJUnit {
+
+
+    @Test
+    public void hello() {
+        System.out.println("hello");
+    }
+
 }
