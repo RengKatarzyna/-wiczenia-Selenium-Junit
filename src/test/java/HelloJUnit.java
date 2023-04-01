@@ -1,11 +1,14 @@
 import org.junit.Test;
 
-class HelloJUnit {
-
+public class HelloJUnit {
 
     @Test
     public void hello() {
         System.out.println("hello");
     }
 
+    @Test
+    public void goodbye() {
+        System.out.println("goodbye");
+    }
 }
